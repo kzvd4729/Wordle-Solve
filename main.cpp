@@ -433,10 +433,10 @@ int main()
 
     dict = sort_dict_by_freq(dict, freq);
 
-    test_accuracy(test, dict);
-    // play_with_computer("curch", dict, 1);
+    // test_accuracy(test, dict);
+    //  play_with_computer("curch", dict, 1);
 
-    // play_with_human(dict);
+    play_with_human(dict);
 
     printf("\n\nTime taken: %.2fs\n", (double)(clock() - tStart) / CLOCKS_PER_SEC);
 
